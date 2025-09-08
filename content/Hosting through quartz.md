@@ -1,0 +1,1 @@
+Run `npx quartz sync` in your terminal to sync your changes to GitHub. This will trigger the automatic build and deployment of your site.
