@@ -8,11 +8,9 @@ Heap is specialized tree based Data Structure, that satisfy the heapify property
 
 Heaps are often implemented in the form of dynamic arrays  and mathematically we can say for an array of size `n` which are the number of nodes in our heap:
 
-- **Height of the Heap**: For n nodes, the height of the heap tree is:
+- **Height of the Heap**: For n nodes, the height of the heap tree is: 
 
-
-					Height = $\lfloor log_2 (n) \rfloor$  
-
+					Height = $\lfloor log_2 (n) \rfloor$
 
 - A node at index `i` has children at `2i + 1` and `2i + 2` (0- based indexing) and parent at $\lfloor \frac{(i-1)}{2} \rfloor$ .
 - **Completeness**: The structure guarantees optimal space utilization with no "holes" in the tree.
