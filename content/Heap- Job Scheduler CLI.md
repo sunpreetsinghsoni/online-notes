@@ -26,8 +26,17 @@ Max-Heap Tree:       50
 ```
 
 - Typical Heap Operation include the following operations:
-	1. `insert()` to insert an element in the heap 
-	2. `pop()` the `min/max` element
-	3. `heapify()` at every stage the tree structure changes on adding/ removing an element
-	4.  `top()` to get the `min/max element` 
+	1. `insert()` to insert an element in the heap - *O*(log(n))
+	2. `pop()` the `min/max` element - *O*(log(n))
+	3. `heapify()` at every stage the tree structure changes on adding/ removing - *O*(log(n))
+	4.  `top()` to get the `min/max` element  - *O*(1)
+
+## Using Heap in Job Scheduler CLI
+
+- By implementing heap natively, the scheduling can be handled by processing the the next highest priority (`max/min`) job (pop from the heap) and adding new jobs (insert into the heap), both in ***O*(log(n))** time.
+- Features that can be integrate in this CLI- 
+	1. add jobs with priority (`insert()`)
+	2. view queue 
+	3. run next job (`pop()`)
+	4. adjust priorities (update and then `heapify()`)
 
