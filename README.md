@@ -1,3 +1,12 @@
+
+# Online Notes
+
+This repo holds my online-notes for cybersecurity. Visit [my](https://sunpreetsinghsoni.github.io/online-notes/) notes and feel free to ask, guide or connect. Have fun!
+
+🐦 [My X profile](https://x.com/apophis366) 
+🔗 [My LinkedIn](https://www.linkedin.com/in/sunpreet-singh-851578289/)`
+
+Here below is a bit about Quartz which hosts the page for the notes:
 # Quartz v4
 
 > “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
